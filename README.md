@@ -22,3 +22,16 @@ Poner atención de que se debe dejar corriendo el método POST con el firstname,
 
 ![image](https://user-images.githubusercontent.com/39358933/127357504-e4072191-4a0d-4453-9c56-8a873470c325.png)
 
+Paso 1: Insertar (POST) datos requeridos en JSON.
+![1step](https://user-images.githubusercontent.com/39358933/127359553-1264578e-027e-4ec8-9d62-3a0a14a7e835.PNG)
+
+Paso 2: Validación de escritura eb BD.
+![2step](https://user-images.githubusercontent.com/39358933/127359618-0fc741d5-acdc-4165-845a-e96ce1ef63c8.PNG)
+
+Paso 3: Obtener (GET) datos con el uuid incluido en el response del body, inyectando JSON anterior.
+![3step](https://user-images.githubusercontent.com/39358933/127359639-d6f0e441-69c2-47bb-b048-08fb34dc4f85.PNG)
+
+Paso 4: Validación de los test contemplados en el GET.
+![4step-test](https://user-images.githubusercontent.com/39358933/127359749-e107ee5a-7375-462d-baf5-144f24c3439d.PNG)
+
+
